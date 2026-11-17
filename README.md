@@ -103,7 +103,8 @@ Related: [KaminiaCraft S3 public config](https://github.com/Jadeonit/KaminiaCraf
 - These are small server utilities, not security tools. They run with the
   server's permissions and should be reviewed before use on a public server.
 - Some early iterations were built with AI assistance; the individual READMEs
-  disclose it where applicable. New code is written and reviewed by hand.
+  disclose it where applicable. I am moving toward writing and reviewing new
+  code by hand.
 - No server addresses, tokens or player data are stored in this repository.
 
 ## License

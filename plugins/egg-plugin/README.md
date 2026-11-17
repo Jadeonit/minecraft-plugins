@@ -101,12 +101,12 @@ mvn clean package
 Готовый jar: `target/Egg.jar`.
 
 В этом проекте уже собранный jar лежит по этому пути. Если Maven/JDK нет в PATH,
-они лежат локально в `C:\Users\user\.tools`:
+они лежат локально в `%USERPROFILE%\.tools`:
 
 ```powershell
 $env:JAVA_HOME="$env:USERPROFILE\.tools\jdk-21.0.13+9"
 $env:Path="$env:JAVA_HOME\bin;$env:USERPROFILE\.tools\apache-maven-3.9.9\bin;$env:Path"
-mvn -f C:\Users\user\egg-plugin\pom.xml clean package
+mvn -f plugins/egg-plugin/pom.xml clean package
 ```
 
 ## Установка

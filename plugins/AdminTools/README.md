@@ -60,7 +60,7 @@ mvn clean package
 ```powershell
 $env:JAVA_HOME="$env:USERPROFILE\.tools\jdk-21.0.13+9"
 $env:Path="$env:JAVA_HOME\bin;$env:USERPROFILE\.tools\apache-maven-3.9.9\bin;$env:Path"
-mvn -f C:\Users\user\AdminTools\pom.xml clean package
+mvn -f plugins/AdminTools/pom.xml clean package
 ```
 
 ## Установка
