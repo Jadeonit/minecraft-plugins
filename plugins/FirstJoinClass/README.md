@@ -1,5 +1,7 @@
 # FirstJoinClass
 
+Оригинал: [Jadeonit/FirstJoinClass](https://github.com/Jadeonit/FirstJoinClass).
+
 Paper-плагин: при первом входе игрока автоматически выполняет `/class` от его имени.
 
 ## Сборка

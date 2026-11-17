@@ -1,5 +1,7 @@
 # Egg
 
+Оригинал: [Jadeonit/egg-plugin](https://github.com/Jadeonit/egg-plugin).
+
 Неприметный плагин для **Paper / Leaf 1.21.11**.
 
 Одна команда, один залп: снаряд падает с неба на выбранного игрока.

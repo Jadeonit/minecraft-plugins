@@ -1,5 +1,7 @@
 # AdminTools
 
+До монорепозитория жил локально; впервые опубликован в [Jadeonit/minecraft-plugins](https://github.com/Jadeonit/minecraft-plugins).
+
 Набор административных команд для **Paper / Leaf 1.21.11**.
 
 ## Команды

@@ -1,5 +1,7 @@
 # PortalBlock
 
+Оригинал: [Jadeonit/PortalBlock](https://github.com/Jadeonit/PortalBlock).
+
 Paper-плагин для 1.21.11: не даёт игрокам войти в портал Нижнего мира.
 
 Когда игрок подходит к порталу, его останавливает на краю — фиолетовый экран

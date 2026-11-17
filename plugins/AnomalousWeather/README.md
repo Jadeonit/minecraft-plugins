@@ -1,5 +1,7 @@
 # AnomalousWeather
 
+Оригинал: [Jadeonit/AnomalousWeather](https://github.com/Jadeonit/AnomalousWeather).
+
 Плагин аномальной погоды для **Paper 1.21+** (собран и протестирован на Paper 1.21.11-132).
 
 Аномалии запускаются **поверх обычной погоды** — ванильный дождь/гроза и смена дня

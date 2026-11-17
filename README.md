@@ -1,5 +1,7 @@
 # Minecraft Plugins
 
+**English** · [Русский](README.ru.md)
+
 A small toolbox of **Paper / Leaf 1.21.x** plugins, written in Java 21 and built
 with Maven. They were originally separate repositories; this monorepo is the
 single entry point for the whole set.
@@ -86,15 +88,18 @@ README. The monorepo adds:
 - one issue tracker and one place to compare patterns;
 - a single portfolio entry point instead of five tiny repos.
 
-## History
+## Origins
 
-The original repositories remain public:
+The original repositories remain public. Each plugin also links back to its
+origin from its own README.
 
-- [egg-plugin](https://github.com/Jadeonit/egg-plugin)
-- [AnomalousWeather](https://github.com/Jadeonit/AnomalousWeather)
-- [PortalBlock](https://github.com/Jadeonit/PortalBlock)
-- [FirstJoinClass](https://github.com/Jadeonit/FirstJoinClass)
-- `AdminTools` was previously local-only and lives here for the first time.
+| Plugin | Original repository |
+|---|---|
+| **Egg** (`OrbitalCannon`) | [Jadeonit/egg-plugin](https://github.com/Jadeonit/egg-plugin) |
+| **AnomalousWeather** | [Jadeonit/AnomalousWeather](https://github.com/Jadeonit/AnomalousWeather) |
+| **PortalBlock** | [Jadeonit/PortalBlock](https://github.com/Jadeonit/PortalBlock) |
+| **FirstJoinClass** | [Jadeonit/FirstJoinClass](https://github.com/Jadeonit/FirstJoinClass) |
+| **AdminTools** | local-only before this monorepo; first published here |
 
 Related: [KaminiaCraft S3 public config](https://github.com/Jadeonit/KaminiaCraftS3_publicconfig).
 
@@ -114,10 +119,4 @@ MIT for the collection unless a plugin carries its own `LICENSE` file. See
 
 ---
 
-## По-русски
-
-Это монорепозиторий из пяти Paper/Leaf-плагинов для Minecraft-сервера:
-`/egg`, аномальная погода, блокировка порталов, автокласс при первом входе и
-админ-инструменты. Каждый плагин по-прежнему собирается отдельно, но теперь у
-всех один CI, один список issue и одна точка входа в портфолио. Сборка:
-`mvn -B package`, JDK 21.
+Русская версия: [README.ru.md](README.ru.md).
