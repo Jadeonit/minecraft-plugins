@@ -1,0 +1,68 @@
+disguise:
+  rod-name: ""
+  rod-lore: false
+
+messages:
+  prefix: ""
+
+defaults:
+  projectile: TNT
+  count: 50
+
+spawn:
+  height: 60
+  height-jitter: 10
+  radius: 8
+  velocity: -2.5
+  per-tick: 20
+  tnt-fuse-extra: 5
+  falling-block-material: SAND
+  disable-ai: false
+
+modes:
+  orbital:
+    projectile: TNT
+    height: 300
+    height-jitter: 6
+    radius: 25
+    velocity: -2.5
+    tnt-fuse-extra: 10
+  megaorbital:
+    projectile: TNT
+    height: 300
+    height-jitter: 10
+    radius: 1000
+    velocity: -2.5
+    tnt-fuse-extra: 10
+  stab:
+    projectile: TNT
+    height: 300
+    height-jitter: 4
+    radius: 1.5
+    velocity: -8.0
+    depth: 8
+    speed: 2.5
+    yield: 6.0
+  wither:
+    projectile: WITHER_SKULL
+    height: 80
+    height-jitter: 10
+    radius: 6
+    velocity: -3.0
+
+mobs:
+  slow-falling: true
+  slow-falling-seconds: 30
+  fall-speed: -0.3
+
+safety:
+  max-entities-per-fire: 2000
+  unlimited-cap: 500
+  cleanup-seconds: 600
+  blocked-types:
+    - ENDER_DRAGON
+
+cooldown-seconds: 3
+
+effects:
+  launch-sound: true

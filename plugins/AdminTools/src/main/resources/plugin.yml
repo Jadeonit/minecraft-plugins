@@ -1,0 +1,34 @@
+name: AdminTools
+version: 1.0.0
+main: ru.admintools.AdminToolsPlugin
+api-version: '1.21'
+description: Administrative commands for Paper servers
+authors: [ Server ]
+
+commands:
+  at:
+    description: Administrative tools
+    usage: /at
+    aliases: [ admintools, tools ]
+    permission: admintools.use
+    permission-message: '§cUnknown command.'
+
+permissions:
+  admintools.use:
+    description: Access to /at
+    default: op
+  admintools.spawn:
+    description: Allows giving the activator item
+    default: op
+  admintools.unlimited:
+    description: Allows unlimited counts
+    default: op
+  admintools.bypasscap:
+    description: Ignores the per-run limit
+    default: op
+  admintools.bypasscooldown:
+    description: Ignores the cooldown
+    default: op
+  admintools.reload:
+    description: Allows config reload
+    default: op
